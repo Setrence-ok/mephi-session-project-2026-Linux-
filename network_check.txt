@@ -1,17 +1,21 @@
 default via 192.168.0.1 dev enp0s3 proto static metric 100 
 ---
-PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=1.54 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=1.17 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=1.25 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=1.12 ms
 
---- 192.168.1.1 ping statistics ---
-4 packets transmitted, 0 received, 100% packet loss, time 3069ms
-
+--- 192.168.0.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3075ms
+rtt min/avg/max/mdev = 1.123/1.269/1.536/0.159 ms
 ---
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=103 time=16.2 ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=103 time=16.0 ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=103 time=16.1 ms
-64 bytes from 8.8.8.8: icmp_seq=4 ttl=103 time=16.0 ms
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=103 time=15.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=103 time=15.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=103 time=15.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=103 time=15.7 ms
 
 --- 8.8.8.8 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3122ms
-rtt min/avg/max/mdev = 16.000/16.094/16.243/0.094 ms
+4 packets transmitted, 4 received, 0% packet loss, time 3067ms
+rtt min/avg/max/mdev = 14.964/15.291/15.722/0.292 ms
